@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+
+div{
+    display: inline-block;
+    
+}
+    
+
+
+
+h1#facebook{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    margin: 250px 100px 50px 100px
+}
+h3#abaixo{
+    width: 450px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    display: block;
+    text-align: justify;
+
+    margin:  0px 0px 0px 100px
+
+}
+
+div#email{
+    border: #D42574 1px solid;
+    margin: 0px 7% auto;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap-reverse; 
+    justify-content: space-between;
+}
+
+div#senha{
+    display: inline-block;
+    margin: 100px 100px 100px 200px;
+}
+
+
+
+
+
+

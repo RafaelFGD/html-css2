@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Textando Box e Inline levels</title>
+    <!-- margens sempre na ordem, cima, direita, baixo, esquerda-->
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        h1{ /* box level */
+            
+            height: 100px;
+            width: 300px;
+            border: 7px solid;
+            border-color: green;
+
+            margin: 20px auto 40px auto;
+
+            padding: 10px;
+
+            outline: 5px dashed salmon;
+            
+        }
+
+        a{ /* inline level */
+            
+            height: 100px;
+            width: 300px;
+            border: 7px solid green;
+            
+            padding: 3px;
+
+        }
+    </style>
+</head>
+<body>
+    <h1>Testando Box Level</h1>
+    <p>Parágrafos também são box level, porem <a href="#">links são considerandos inline-levels</a></p>
+</body>
+</html>

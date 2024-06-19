@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+/* id somente 1
+   class pode em varios */
+   
+body{
+    background-color: #6180ee69;
+    font-family: Arial, Arial, Helvetica, sans-serif;
+    background-attachment: fixed;
+}
+
+h1{
+    color: #122F9F;
+
+}
+
+h1#principal{
+    
+    text-align: center;
+    background-color: #122F9F;
+    color: white;
+    border-radius: 10px; /* arredondamento da borda*/
+    margin: auto;
+    width: 500px;
+
+}
+
+h2.basico{
+    color: #807826;
+}
+
+h2.intermediario{
+    color: #805408;
+}
+
+h2.avançado{
+    color: #2B449E;
+}

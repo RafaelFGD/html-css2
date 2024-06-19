@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Midias em HTML</title>
+</head>
+<body>
+    <h1>Imagem Dinamica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="IMAGENS/FOTOP.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="IMAGENS/FOTOM.png" type="image/png">
+        <img src="IMAGENS/FOTOG.png" alt="Foto grande">
+    </picture>
+
+    <h1>Reproduzindo áudio</h1>
+    <p>Vamos aprender a reproduzir áudio e HTML 5.</p>
+    <audio preload="metadata" autoplay controls>  
+        <source src="MIDIAS/Disfigure - Blank _ Melodic Dubstep _ NCS - Copyright Free Music.mp3" type="audio/mpeg">
+    </audio>
+    
+</body>
+</html>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Groupíng tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: 0px;
+        }
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        nav{
+            background-color: rgb(151, 151, 151);
+            padding: 3px;
+
+        }
+
+        nav>a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+            
+        }
+
+        nav>a:hover{
+            text-decoration: underline;
+        }
+        article{
+            background-color: lightgrey;
+            padding: 5px;
+        }
+
+        article>aside{
+            background-color: rgb(148, 146, 146);
+        }
+
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        footer{
+            color: white;
+            background-color: black;
+            text-align: center;
+            padding: 1px;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticias sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem dolores cum in voluptas labore itaque, ad nesciunt doloribus, iusto, voluptatibus ea asperiores eius ratione amet? Asperiores hic vitae omnis quaerat.</p>
+                <aside>
+                    <p>Artigo escrito por Rafael Fagundes</p>
+                </aside>
+            </article>
+        </section>
+        
+    </main>
+    <footer>
+        <p>Desenvolvido por Rafael Fagundes</p>
+    </footer>
+</body>
+</html>

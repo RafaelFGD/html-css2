@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+    /* 
+    Medidas absolutas
+    cm, mm, in, px, pt, pc
+    
+    Medidas relativas
+    em, ex, rem, vw, vh, %
+    
+    RECOMENDAÇÃO W3C
+    em e px
+
+    16px geralmente = 1em
+
+    */
+}
+
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
