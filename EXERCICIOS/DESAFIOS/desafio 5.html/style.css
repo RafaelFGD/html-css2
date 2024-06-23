@@ -48,8 +48,7 @@ main p{
     padding: 10px;
     font-family: 'Sriracha', Arial, Helvetica, sans-serif;
     font-size: 50px;
-    width: 500px;
-    
+    max-width: 500px;
 }
 
 article#dois{
@@ -67,7 +66,6 @@ article#dois p{
     padding: 10px;
     background-color: rgba(0, 0, 0, 0.247);
     color: white;
-
 }
 
 article#cinco{
@@ -76,7 +74,6 @@ article#cinco{
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-
 }
 
 article#cinco p{
@@ -85,6 +82,27 @@ article#cinco p{
     margin-top: 50px;
     padding: 10px;
     background-color: rgba(0, 0, 0, 0.247);
-    
-    
+}
+
+footer{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+    margin: 1px;
+    padding: 1px;
+    background-color: black;
+}
+
+footer p{
+    margin: 5px;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover{
+    text-decoration: underline;
 }
