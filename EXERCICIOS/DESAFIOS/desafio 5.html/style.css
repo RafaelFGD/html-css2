@@ -55,7 +55,6 @@ article#dois{
     margin: auto;
     background-image: url('imagens/background001.jpg');
     background-position: center right;
-    background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     
@@ -72,7 +71,6 @@ article#dois p{
 article#cinco{
     background-image: url('imagens/background002.jpg');
     background-position: right center;
-    background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
 }
